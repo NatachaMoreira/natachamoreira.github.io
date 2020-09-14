@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: #b68079;
+    font: 16px helvetica; 
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#meulogo {
+    width: 15%;
+    margin-left: 1%;
+}
+#logodiv {
+    height: 3%;
+}
+
+#menu {
+    float: right;
+    margin-right: 2%;
+    list-style: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.topicos {
+    float: left;
+    padding: 20;
+}
+
+.topicos:hover {
+    background:#fb3c24 ;
+}
+
+#header {
+    background-image: url(img/imagem_banner.jpg);
+    height: 95%;
+    text-align: center;
+    padding-top: 130px;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 50px;
+    background: #b68079;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+#slogan {
+    font-size: 20px;
+    background: #b68079;
+    margin-bottom:10px;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+#button {
+    background: #fb3c24;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+#button:hover {
+    background: #b68079;
+    color: black;
+    border: 1px solid #b68079;
+}
+
+.apresentação {
+    background-color: bisque;
+    padding-bottom: 60px;
+}
+
+.apresentação p {
+    margin-top: 40px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font: 16px Helvetica;
+    }
+
+.apresentação h2 {
+        text-align: center;
+        padding-top: 60px;
+}
+
+.justificado {
+    text-align: center;
+}
+
+#oproblema {
+text-align: center;
+padding-top:2%;
+}
+
+#oproblema p {
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+#oproblema a {
+    text-decoration: none;
+    color: #b68079
+}
+
+ #oproblema iframe { 
+     width: 40%;
+     height: 60%;
+ }
+
+#noticias {
+    height: 100%;
+    width: 100%;
+}
+
+#ongs1 {
+    background-color: bisque;
+    font-size: 16px;
+    float: left;
+}
+
+#ongs1 h2 {
+    text-align: center;
+}
+
+.logo {
+    width: 80%;
+    height: 10%;
+    padding-left: 23%;
+}
+
+.colunaquatro {
+    position: relative;
+    float: left;
+    width: 25%;
+    padding: 0 2%;
+}
+
+#ongs2 {
+    background-color: bisque;
+    float: left;
+}
+
+.colunatres {
+    position:relative;
+    float: left;
+    width: 33%;
+    padding: 0 2%;
+}
+
+#oquefazer {
+    float:left;
+}
+
+.colunadois {
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 0 5%;
+    font-size: 18px;
+}
+
+.titulo3 {
+   text-align: center;
+   padding-top: 5%;
+}
+
+#video2 {
+    width: 40%;
+    height: 70%;
+    padding-top:5%;
+}
+
+.alinhamento {
+    text-align: center;
+}
+
+.descricao {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+#sobre {
+    background-color: bisque;
+    float:left;
+}
+
+.colunasobre {
+    position: relative;
+    float: left;
+    width: 50%;
+    padding: 0 2%;
+}
+
+.colunasobre h2 {
+    text-align:center;
+    padding-bottom: 5%;
+    padding-top:5%;
+}
+
+.colunasobre p {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.colunasobre img {
+    padding-left: 30%;
+}
+
+footer {
+    background-color:#b68079;
+    float: left;
+    width: 100%;
+}
+
+footer h3 {
+    padding-top:2%;
+    text-align: center;
+    font-size:12px;
+}
+
+footer p {
+    text-align: center;
+    font-size:12px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer a {
+    text-decoration:none;
+}
+
+.colunafooter {
+    position: relative;
+    float:left;
+    width: 50%;
+    padding: 0 2%;
+}
+
+@media all and (max-width:768px) { 
+    #menu {
+        visibility: hidden;
+    }
+.colunaquatro, .colunadois, .colunatres, .colunasobre, #oproblema iframe, #video2 {
+    display: block; 
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+}
+#logodiv {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+#meulogo {
+    width:50%;
+    height: 90%;
+    padding-top: 2%;
+}
+.apresentação {
+    padding: 0;
+    margin: 0;
+}
+#oproblema p {
+    margin: 0;
+}
+.descricao{
+    padding: 0;
+}
+.colunasobre img{
+    padding-left: 10%;
+}
+#oproblema iframe, #video2 {
+    width: 90%;
+    height: 50%;
+}
+h1 {
+    font-size:35px;
+    margin-left: 0%;
+    margin-right:0%
+}
+#slogan {
+    font-size:16px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 8%;
+}
+#button {
+    font-size: 16px;
+}
+}
+
+
